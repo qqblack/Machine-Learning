@@ -1,4 +1,8 @@
 # -*- coding: UTF-8 -*-
+'''
+在kNN_test04.py的基础上，添加了txt数字图像的识别
+添加了模型的保存和加载
+'''
 import numpy as np
 import operator
 from os import listdir
