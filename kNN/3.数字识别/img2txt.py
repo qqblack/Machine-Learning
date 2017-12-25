@@ -1,5 +1,6 @@
 '''
 将任意图片转换为32*32的txt
+运行前，需要先运行kNN_test04_tz.py生成model.dat模型文件
 '''
 import cv2
 import matplotlib.pyplot as plt
