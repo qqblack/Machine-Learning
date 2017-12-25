@@ -1,5 +1,6 @@
 '''
 仅能识别单个数字的图片
+运行前，需要先运行kNN_test04_tz.py生成model.dat模型文件
 '''
 import cv2
 import img2txt
