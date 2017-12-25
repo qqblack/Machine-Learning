@@ -133,14 +133,14 @@ Modify:
 """
 if __name__ == '__main__':
 	FileLocate = sys.argv[1]
-	# model = Train()
-	# # 保存模型
-	# with open('model.dat','wb') as f:
-	# 	pickle.dump(model,f)
+	model = Train()
+	# 保存模型
+	with open('model.dat','wb') as f:
+		pickle.dump(model,f)
 
 	# 加载模型
 	with open('model.dat','rb') as f:
 	    model = pickle.load(f)
 	# 识别
-	# TestRecgnize(model,FileLocate) # 需要文件名中含结果
+	TestRecgnize(model,FileLocate) # 需要文件名中含结果
 	FileRecgnize(model,FileLocate)   # 识别32*32的txt文件
